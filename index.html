@@ -15,7 +15,9 @@ s<!DOCTYPE html>
     <link rel="stylesheet" href="./assets/css/fonts.css" />
     <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="./assets/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/jquery.formstyler.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/media.css" />
   </head>
   <body>
     <header class="header">
@@ -47,6 +49,9 @@ s<!DOCTYPE html>
               </a>
             </div>
             <nav class="menu">
+              <div class="header__btn-menu">
+                <span class="icon-bars"></span>
+              </div>
               <ul>
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">О компании</a></li>
@@ -58,18 +63,16 @@ s<!DOCTYPE html>
         </div>
       </div>
     </header>
-
+    
     <section class="slider">
       <div class="container">
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__item-content">
-              <div class="slider__title">Комплексное закрытие предприятий</div>
+              <div class="slider__title">КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЙ</div>
               <div class="slider__text">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                fuga hic adipisci praesentium recusandae necessitatibus error?
-                Molestias explicabo doloribus ab sit voluptas alias similique
-                obcaecati.
+                fuga hic adipisci praesentium recusandae necessitatibus error.
               </div>
               <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">Оставить заявку
               </a>
@@ -80,9 +83,7 @@ s<!DOCTYPE html>
               <div class="slider__title">Комплексное закрытие предприятий</div>
               <div class="slider__text">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                fuga hic adipisci praesentium recusandae necessitatibus error?
-                Molestias explicabo doloribus ab sit voluptas alias similique
-                obcaecati.
+                fuga hic adipisci praesentium recusandae necessitatibus error.
               </div>
               <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">Оставить заявку
               </a>
@@ -93,9 +94,7 @@ s<!DOCTYPE html>
               <div class="slider__title">Комплексное закрытие предприятий</div>
               <div class="slider__text">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                fuga hic adipisci praesentium recusandae necessitatibus error?
-                Molestias explicabo doloribus ab sit voluptas alias similique
-                obcaecati.
+                fuga hic adipisci praesentium recusandae necessitatibus error.
               </div>
               <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">Оставить заявку
               </a>
@@ -108,12 +107,286 @@ s<!DOCTYPE html>
         </div>
       </div>
     </section>
+<section class="services">
+  <div class="container">
+    <div class="services__top">
+      <div class="services__title-box">
+        <div class="services__title">
+          Наши Услуги
+        </div>
+        <div class="services__text">
+          Комплексный подход sit amet consectetur adipisicing elit. Similique molestias optio suscipit consectetur placeat deleniti ea at excepturi ipsa quae nesciunt, consequatur sit repellendus
+        </div>
+      </div>
+      <div class="services__btn">
+        <a href="#">
+         Показать все услуги
+        </a>
+      </div>
+    </div>
+    <div class="services__items">
+      <div class="services__item">
+        <img src="/assets/img/about-1.png" alt="">
+        <div class="services__item-title">
+          Банкротство и ликвидация
+        </div>
+        <div class="services__item-text">
+          Комплексный подход amet consectetur adipisicing elit. Voluptates, nostrum!
+        </div>
+        <div class="services__item-btn">
+          <a class="services__item-link" href="#">Подробнее</a>
+          <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">Заказать
+              </a>
+        </div>
+      </div>
+      <div class="services__item">
+        <img src="/assets/img/about-2.png" alt="">
+        <div class="services__item-title">
+          Адвокатское сопровождение
+        </div>
+        <div class="services__item-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nostrum!
+        </div>
+        <div class="services__item-btn">
+          <a class="services__item-link" href="#">Подробнее</a>
+          <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">Заказать
+              </a>
+        </div>
+      </div>
+      <div class="services__item">
+        <img src="/assets/img/about-3.png" alt="">
+        <div class="services__item-title">
+          Налоговый аудит
+        </div>
+        <div class="services__item-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nostrum!
+        </div>
+        <div class="services__item-btn">
+          <a class="services__item-link" href="#">Подробнее</a>
+          <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">Заказать
+              </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <div id="modal"></div>
+<section class="about">
+<div class="container">
+  <div class="about__inner">
+  <div class="about__title">О компании</div>
+  <div class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repudiandae!</div>
+   <a href="#" class="about__btn default-btn">Узнать больше
+              </a>
+</div>
+</div>
+</section>
+
+<section class="form">
+  <div class="container">
+    <div class="form__inner">
+      <div class="form__content">
+          <div class="form__title-box">
+        <div class="form__title">
+          Получить консультацию
+        </div>
+        <div class="form__text">
+          Комплексный подход sit amet consectetur adipisicing elit. Similique molestias optio suscipit consectetur placeat deleniti ea at excepturi ipsa quae nesciunt, consequatur sit repellendus
+        </div>
+      </div>
+<div class="form__box">
+  <form>
+    <div class="form__box-inner">
+      <div class="form__box-left">
+        <label>
+          E-mail
+          <input type="text">
+        </label>
+        <label>
+          Контактный телефон
+          <input type="text">
+        </label>
+        <label>
+          ФИО
+          <input type="text">
+        </label>
+        <label>
+          Тема вопроса
+          <select >
+            <option>----------</option>
+            <option>----------</option>
+            <option>----------</option>
+            <option>----------</option>
+        </select>
+        </label>
+      </div>
+      <div class="form__box-right">
+        <label>
+          Сообщение
+          <textarea></textarea>
+        </label>
+        <button class="default-btn" type="submit">Получить консультацию</button>
+      </div>
+    </div>
+  </form>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="advantages">
+  <div class="container">
+    <div class="advantages__inner">
+      <div class="advantages-item">
+        <div class="advantages__title">
+Lorem ipsum dolor sit amet consectetur.
+        </div>
+        <div class="advantages__text">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptatem unde quidem a consequatur nulla!
+        </div>
+      </div>
+      <div class="advantages-item">
+        <div class="advantages__title">
+Lorem ipsum dolor sit amet consectetur.
+        </div>
+        <div class="advantages__text">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptatem unde quidem a consequatur nulla!
+
+        </div>
+        </div>
+         <div class="advantages-item">
+        <div class="advantages__title">
+Lorem ipsum dolor sit amet consectetur.
+        </div>
+        <div class="advantages__text">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptatem unde quidem a consequatur nulla!
+
+        </div>
+        </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="news">
+<div class="container">
+  <div class="news__top">
+      <div class="news__title-box">
+        <div class="news__title">
+          Новости компании
+        </div>
+        <div class="news__text">
+          Комплексный подход sit amet consectetur adipisicing elit. Similique molestias optio suscipit consectetur placeat deleniti ea at excepturi ipsa quae nesciunt, consequatur sit repellendus
+        </div>
+      </div>
+      <div class="news__btn">
+        <a href="#">
+         Открыть все новости
+        </a>
+      </div>
+    </div>
+    <div class="news__inner">
+      <div class="news__slider">
+        <div class="news__slider-inner">
+          <div class="news__slider-item">
+            <div class="news__slider-title">Lorem ipsum dolor sit amet consectetur.
+            </div>
+           <div class="news__slider-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum maxime quis recusandae nesciunt quam, veritatis nisi quas culpa dolor commodi fugiat nostrum odio, reprehenderit a, reiciendis sint quod debitis.."</div>
+            <div class="news__slider-author">Андрей Андреевич Украинец директор компании Украина</div>
+          </div>
+          <div class="news__slider-item">
+            <div class="news__slider-title">Lorem ipsum dolor sit amet consectetur.
+            </div>
+            <div class="news__slider-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum maxime quis recusandae nesciunt quam, veritatis nisi quas culpa dolor commodi fugiat nostrum odio, reprehenderit a, reiciendis sint quod debitis.."</div>
+            <div class="news__slider-author">Андрей Андреевич Украинец директор компании Украина</div>
+          </div>
+          <div class="news__slider-item">
+            <div class="news__slider-title">Lorem ipsum dolor sit amet consectetur.
+            </div>
+                      <div class="news__slider-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum maxime quis recusandae nesciunt quam, veritatis nisi quas culpa dolor commodi fugiat nostrum odio, reprehenderit a, reiciendis sint quod debitis.."</div>
+            <div class="news__slider-author">Андрей Андреевич Украинец директор компании Украина</div>
+          </div>
+        </div>
+      </div>
+      <a href="" class="news__blog">
+        <div class="news__images">
+          <img src="./assets/img/news-1.jpg" alt="">
+          <div class="news__date">
+            03.04</div>
+        </div>
+        <div class="news__blog-title">
+          Новости компании</div>
+        <div class="news__blog-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius unde rerum, molestiae sunt qui odio odit labore est deleniti, facere, tempore libero distinctio ipsa.
+
+        </div>
+      </a>
+      <a href="" class="news__blog">
+        <div class="news__images">
+          <img src="./assets/img/news-2.jpg" alt="">
+          <div class="news__date">
+            04.04</div>
+        </div>
+        <div class="news__blog-title">
+          Новости компании</div>
+        <div class="news__blog-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius unde rerum, molestiae sunt qui odio odit labore est deleniti, facere, tempore libero distinctio ipsa.
+
+        </div>
+      </a>
+    </div>
+</div>
+</section>
+
+<!-- <footer class="footer">
+  <div class="footer__content">
+    <div class="container">
+      <div class="footer__inner">
+<div class="footer__info">
+<div class="footer__title">
+  Комплексное закрытие предприятий
+</div>
+<div class="footer__text">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. In, odio!
+</div>
+  <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#"
+  >Бесплатная консультация</a>
+  <ul class="footer__list">
+  <li><a class="footer__phone" href="tel:380675555555">+38 (067) 555 55 55</a></li>
+  <li><a href="#">layout585@gmail.com</a></li>
+  <li><a class="footer__adress" href="#">Майдан незалежності, 2</a></li>
+</ul>
+</div>
+
+  <div class="footer__map">
+    <iframe width="630" height="260" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.488762854375!2d30.5210257157314!3d50.45062257947534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50f8b30b23%3A0x2df47fd22bd18514!2z0JzQsNC50LTQsNC9INCd0LXQt9Cw0LLQuNGB0LjQvNC-0YHRgtC4LCAyLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1651863411009!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+</div>
+  </div>
+  <div class="footer__copy">
+    <div class="container">
+      <div class="copy__text">
+        © 2017 Template by Anastasia Shaposhnyk. Все права защищены.
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+    <div id="modal">
+      <form>
+        <input type="text" placeholder="Ваше имя" />
+        <input type="text" placeholder="Ваш телефон" />
+        <input type="submit" value="Отправить" />
+      </form>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./assets/js/jquery.fancybox.min.js"></script>
     <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/jquery.formstyler.min.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
