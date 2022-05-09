@@ -131,7 +131,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-height: 500px;
+  min-height: 500px;
 }
 .slider__item-content {
   text-align: center;
@@ -246,7 +246,7 @@ body {
 }
 .services__title,
 .form__title,
-news__title {
+.news__title {
   font-size: 24px;
   font-weight: 500;
   line-height: 24px;
@@ -633,11 +633,11 @@ news__title {
 .footer__map {
   padding-top: 10px;
   max-width: 630px;
+  width: 100%;
 }
-/* .footer__map iframe{
-width: 100%;
-height:250px;
-} */
+.footer__map iframe {
+  width: 100%;
+}
 .footer__title {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
